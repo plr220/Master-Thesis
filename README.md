@@ -7,11 +7,11 @@ The following content is in each of the following files:
 
 -look_for_node_in_graph.py - Graph Search and Ambiguity State Identification.
 
--one_query_system - complete framework, takes the process from the start query and outputs the follow-up query. Query Generation is in this file.
+-one_query_system.py - complete framework, takes the process from the start query and outputs the follow-up query. Query Generation is in this file.
 
 -create_dataset_new.py - used to create ambiguous queries for an environemnt from the templated non ambiguous queries.
 
 -run_create_all_dataset.py - Creates testing dataset for every environment using create_datatset_new.
 
--run_llm_and_match - takes the queries of the testing datasets and outputs csv files with the matching objects for each query.
+-run_llm_and_match.py - takes the queries of the testing datasets and outputs csv files with the matching objects for each query.
 
